@@ -65,7 +65,9 @@ public class Shuffler3 {
 			k+=2;
 		}
 		
-		values = shuffled;
+		for(int i = 0; i < shuffled.length; i++) {
+			values[i] = shuffled[i];
+		}
 	}
 
 	/**
